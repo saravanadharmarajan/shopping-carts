@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-20T14:14:02.163Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="hfEpJqES_YNaLS0Jimxz" version="21.7.5" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2023-09-20T14:27:50.505Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="IbISsxLoTvbWvozSMFyi" version="21.7.5" type="github" pages="6">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Supply_Demand_Change">
     <mxGraphModel dx="1050" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -56,19 +56,13 @@
         <mxCell id="1wvFu6MvYdprL2qvK4ZT-7" value="End" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="285" y="240" width="50" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="1wvFu6MvYdprL2qvK4ZT-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1wvFu6MvYdprL2qvK4ZT-10" target="1wvFu6MvYdprL2qvK4ZT-14">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="1wvFu6MvYdprL2qvK4ZT-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1wvFu6MvYdprL2qvK4ZT-10" target="1wvFu6MvYdprL2qvK4ZT-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="520" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="1wvFu6MvYdprL2qvK4ZT-10" value="Consume Event from internal Topic" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="680" y="490" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="1wvFu6MvYdprL2qvK4ZT-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1wvFu6MvYdprL2qvK4ZT-14">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="370" y="520" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="1wvFu6MvYdprL2qvK4ZT-14" value="Calculate Channel Availability &amp;amp; Inventory Level" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="440" y="490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1wvFu6MvYdprL2qvK4ZT-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="1wvFu6MvYdprL2qvK4ZT-15">
           <mxGeometry relative="1" as="geometry">
@@ -149,7 +143,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="1wvFu6MvYdprL2qvK4ZT-34" value="Calculate Channel Availability &amp;amp; Inventory Level" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="240" y="490" width="120" height="60" as="geometry" />
+          <mxGeometry x="315" y="490" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="1wvFu6MvYdprL2qvK4ZT-37" value="Publish Channel Availability Change Event for Channels" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="285" y="870" width="120" height="80" as="geometry" />
@@ -462,6 +456,58 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="Dcu-D0TQmxV9t5705_L2-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="770" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="GRrPM9Wu8yLM_EZlCLJu-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7mxTbDaYbNDlNhGF9rNo-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7mxTbDaYbNDlNhGF9rNo-1" value="Channel Definition Refresh Job" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GRrPM9Wu8yLM_EZlCLJu-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="7mxTbDaYbNDlNhGF9rNo-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7mxTbDaYbNDlNhGF9rNo-2" value="Identify List of changes to Channel Defintion" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Dcu-D0TQmxV9t5705_L2-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="eWeqF5hTB278P993rikA-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eWeqF5hTB278P993rikA-1" value="Publish Event to Internal topic with applicable channels and nodes Included / Excluded&amp;nbsp;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="50" width="140" height="100" as="geometry" />
+        </mxCell>
+        <UserObject label="Merge with Flow for Channel Definition Change - Capacity Filled Job" link="data:page/id,MHMwxh5nIhd_VCvGlM9R" id="yQaoKqKCIlsRBifk_8q_-1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+            <mxGeometry x="550" y="220" width="120" height="60" as="geometry" />
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="MnchwCMfW4cs9BqZV4Ox" name="SIT Value Changes">
+    <mxGraphModel dx="1050" dy="542" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7Kea3wkhVZQziV85_znI-2" value="Knock Off Job - SIT Change" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Kea3wkhVZQziV85_znI-3" value="SIT Threshold Changes" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="150" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Kea3wkhVZQziV85_znI-4" value="SIT Departments Enabled / Disabled" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7Kea3wkhVZQziV85_znI-5" value="Advised Supply Received from SIT SE / OMS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
